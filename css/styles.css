@@ -54,7 +54,7 @@ body{
 }
 /*image*/
 .image-1{
-  width: 30%;
+  width: 20%;
   transform: rotate(25deg);
   position: absolute;
   top: 150px;
@@ -116,9 +116,28 @@ text-align: center;
 .pricing-column{
   padding: 2% 3%;
 }
-@media query(max-width:991.20px) {
+@media (max-width:1020px) {
+  #title{
+    text-align: center;
+  }
   .image-1{
     position: static;
-    transform: rotate(0);
+  transform: rotate(0);
   }
+}
+/*call tp action*/
+#cta{
+  background-color: #ff4c68;
+  text-align: center;
+  color: #ffff;
+  font-family: "Montserrat-Black";
+  font-size: 3rem;
+  line-height: 1.5;
+  margin-bottom: 50px;
+}
+
+
+#footer{
+  text-align: center;
+  background-color: #ffff;
 }
